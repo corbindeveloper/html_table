@@ -1,0 +1,40 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-size: 20px;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: none;
+   width: 40%;
+}
+
+.header-row {
+   background-color: gray;
+   color: gold;
+}
+
+th {
+   padding: 2.5%;
+}
+
+.body-row {
+   border-bottom: 1px solid black;
+}
+
+.body-row:hover {
+   background-color: rgb(240, 240, 240);
+}
+
+td {
+   text-align: center;
+   padding: 2.5%;
+}
+
+
